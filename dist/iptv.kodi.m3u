@@ -26,8 +26,8 @@ http://101.35.240.114:88/live.php?id=CCTV10|User-Agent=AptvPlayer-UA
 http://101.35.240.114:88/live.php?id=CCTV11|User-Agent=AptvPlayer-UA
 #EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" group-title="央视IPV4",CCTV12
 http://101.35.240.114:88/live.php?id=CCTV12|User-Agent=AptvPlayer-UA
-#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" ghttp-user-agent="AptvPlayer-UA" group-title="央视IPV4",CCTV13
-http://101.35.240.114:88/live.php?id=CCTV13
+#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" group-title="央视IPV4",CCTV13
+http://101.35.240.114:88/live.php?id=CCTV13|User-Agent=AptvPlayer-UA
 #EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" group-title="央视IPV4",CCTV14
 http://101.35.240.114:88/live.php?id=CCTV14|User-Agent=AptvPlayer-UA
 #EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" group-title="央视IPV4",CCTV15
@@ -59,8 +59,8 @@ http://101.35.240.114:88/live.php?id=CHC影迷电影|User-Agent=AptvPlayer-UA
 http://101.35.240.114:88/live.php?id=重温经典|User-Agent=AptvPlayer-UA
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" group-title="卫视IPV4",翡翠台
 http://101.35.240.114:88/live.php?id=翡翠台|User-Agent=AptvPlayer-UA
-#EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" http-header="Referer=https://live.kankanews.com/" group-title="卫视IPV4",五星体育
-http://101.35.240.114:88/live.php?id=五星体育|User-Agent=iPhone
+#EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" group-title="卫视IPV4",五星体育
+http://101.35.240.114:88/live.php?id=五星体育|User-Agent=iPhone&Referer=https%3A%2F%2Flive.kankanews.com%2F
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" group-title="卫视IPV4" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",凤凰资讯
 http://101.35.240.114:88/phenix.php?id=fhzx|User-Agent=iPhone
 #EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" group-title="卫视IPV4" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",凤凰中文
@@ -75,8 +75,8 @@ http://101.35.240.114:88/live.php?id=北京卫视|User-Agent=AptvPlayer-UA
 http://101.35.240.114:88/live.php?id=深圳卫视|User-Agent=AptvPlayer-UA
 #EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" group-title="卫视IPV4",浙江卫视
 http://101.35.240.114:88/live.php?id=浙江卫视|User-Agent=AptvPlayer-UA
-#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" http-header="Referer=https://litchi-play-encrypted-site.jstv.com/" group-title="卫视IPV4",江苏卫视
-http://101.35.240.114:88/live.php?id=江苏卫视|User-Agent=AptvPlayer-UA
+#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" group-title="卫视IPV4",江苏卫视
+http://101.35.240.114:88/live.php?id=江苏卫视|User-Agent=AptvPlayer-UA&Referer=https%3A%2F%2Flitchi-play-encrypted-site.jstv.com%2F
 #EXTINF:-1 tvg-id="陕西卫视" tvg-name="陕西卫视" group-title="卫视IPV4",陕西卫视
 http://101.35.240.114:88/live.php?id=陕西卫视|User-Agent=AptvPlayer-UA
 #EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" group-title="卫视IPV4",湖北卫视
