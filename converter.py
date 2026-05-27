@@ -22,6 +22,16 @@ DROP_PREFIXES = (
 
 ATTR_RE = re.compile(r'(?P<key>[\w-]+)="(?P<value>[^"]*)"')
 
+HEADER_KEY_PATTERNS = (
+    (re.compile(r"^[a-z]*http-user-agent$"), "User-Agent"),
+    (re.compile(r"^[a-z]*http-referr?er$"), "Referer"),
+)
+
+HTTP_HEADER_ATTR_KEYS = {
+    "http-header",
+    "http-headers",
+}
+
 
 def fetch_text(url: str) -> str:
     req = urllib.request.Request(
@@ -42,11 +52,31 @@ def should_drop_line(line: str) -> bool:
 
 def normalize_header_key(key: str) -> str | None:
     lowered = key.lower()
-    if lowered == "http-user-agent":
+    for pattern, header_key in HEADER_KEY_PATTERNS:
+        if pattern.fullmatch(lowered):
+            return header_key
+    return None
+
+
+def normalize_http_header_name(name: str) -> str | None:
+    lowered = name.strip().lower()
+    if lowered in {"user-agent", "http-user-agent"}:
         return "User-Agent"
-    if lowered in {"http-referer", "http-referrer"}:
+    if lowered in {"referer", "referrer", "http-referer", "http-referrer"}:
         return "Referer"
     return None
+
+
+def parse_http_header_attr(value: str) -> dict[str, str]:
+    name, sep, header_value = value.partition("=")
+    if not sep:
+        return {}
+
+    header_key = normalize_http_header_name(name)
+    if header_key is None:
+        return {}
+
+    return {header_key: header_value}
 
 
 def strip_http_header_attrs(extinf_line: str) -> tuple[str, dict[str, str]]:
@@ -57,6 +87,10 @@ def strip_http_header_attrs(extinf_line: str) -> tuple[str, dict[str, str]]:
         key = match.group("key")
         value = match.group("value")
         header_key = normalize_header_key(key)
+
+        if key.lower() in HTTP_HEADER_ATTR_KEYS:
+            headers.update(parse_http_header_attr(value))
+            return ""
 
         if header_key is None:
             return match.group(0)
