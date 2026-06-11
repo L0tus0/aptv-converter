@@ -1,5 +1,14 @@
 #EXTM3U x-tvg-url="https://epg.aptv.app/pp.xml.gz,https://epg.aptv.app/xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
 
+#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" group-title="央视IPV4",CCTV5
+http://101.35.240.114:88/live.php?id=CCTV5|User-Agent=AptvPlayer-UA
+#EXTINF:-1 tvg-id="CCTV5PLUS" tvg-name="CCTV5+" group-title="央视IPV4",CCTV5+
+http://101.35.240.114:88/live.php?id=CCTV5p|User-Agent=AptvPlayer-UA
+#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" group-title="央视IPV4",CCTV16
+http://101.35.240.114:88/live.php?id=CCTV16|User-Agent=AptvPlayer-UA&Referer=https%3A%2Faptv.app%2F
+#EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" group-title="央视IPV4",CCTV4K
+http://101.35.240.114:88/live.php?id=CCTV4K|User-Agent=AptvPlayer-UA
+
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" group-title="央视IPV4",CCTV1
 http://101.35.240.114:88/live.php?id=CCTV1|User-Agent=AptvPlayer-UA
 #EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" group-title="央视IPV4",CCTV2
@@ -8,10 +17,6 @@ http://101.35.240.114:88/live.php?id=CCTV2|User-Agent=AptvPlayer-UA
 http://101.35.240.114:88/live.php?id=CCTV3|User-Agent=AptvPlayer-UA
 #EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" group-title="央视IPV4",CCTV4
 http://101.35.240.114:88/live.php?id=CCTV4|User-Agent=AptvPlayer-UA
-#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" group-title="央视IPV4",CCTV5
-http://101.35.240.114:88/live.php?id=CCTV5|User-Agent=AptvPlayer-UA
-#EXTINF:-1 tvg-id="CCTV5PLUS" tvg-name="CCTV5+" group-title="央视IPV4",CCTV5+
-http://101.35.240.114:88/live.php?id=CCTV5p|User-Agent=AptvPlayer-UA
 #EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" group-title="央视IPV4",CCTV6
 http://101.35.240.114:88/live.php?id=CCTV6|User-Agent=AptvPlayer-UA
 #EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" group-title="央视IPV4",CCTV7
@@ -32,8 +37,6 @@ http://101.35.240.114:88/live.php?id=CCTV13|User-Agent=AptvPlayer-UA
 http://101.35.240.114:88/live.php?id=CCTV14|User-Agent=AptvPlayer-UA
 #EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" group-title="央视IPV4",CCTV15
 http://101.35.240.114:88/live.php?id=CCTV15|User-Agent=AptvPlayer-UA
-#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" group-title="央视IPV4",CCTV16
-http://101.35.240.114:88/live.php?id=CCTV16|User-Agent=AptvPlayer-UA&Referer=https%3A%2Faptv.app%2F
 #EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" group-title="央视IPV4",CCTV17
 http://101.35.240.114:88/live.php?id=CCTV17|User-Agent=AptvPlayer-UA
 #EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" group-title="央视IPV4",CGTN英语
