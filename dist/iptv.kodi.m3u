@@ -1,13 +1,13 @@
 #EXTM3U x-tvg-url="https://epg.aptv.app/pp.xml.gz,https://epg.aptv.app/xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
 
 #EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" group-title="央视IPV4",CCTV5
-http://101.35.240.114:88/live.php?id=CCTV5|User-Agent=AptvPlayer-UA
+http://101.35.240.114:88/live.php?id=CCTV5|User-Agent=iPhone
 #EXTINF:-1 tvg-id="CCTV5PLUS" tvg-name="CCTV5+" group-title="央视IPV4",CCTV5+
-http://101.35.240.114:88/live.php?id=CCTV5p|User-Agent=AptvPlayer-UA
+http://101.35.240.114:88/live.php?id=CCTV5p|User-Agent=iPhone
 #EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" group-title="央视IPV4",CCTV16
-http://101.35.240.114:88/live.php?id=CCTV16|User-Agent=AptvPlayer-UA&Referer=https%3A%2Faptv.app%2F
+http://101.35.240.114:88/live.php?id=CCTV16|User-Agent=iPhone&Referer=https%3A%2Faptv.app%2F
 #EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" group-title="央视IPV4",CCTV4K
-http://101.35.240.114:88/live.php?id=CCTV4K|User-Agent=AptvPlayer-UA
+http://101.35.240.114:88/live.php?id=CCTV4K|User-Agent=iPhone
 
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" group-title="央视IPV4",CCTV1
 http://101.35.240.114:88/live.php?id=CCTV1|User-Agent=AptvPlayer-UA

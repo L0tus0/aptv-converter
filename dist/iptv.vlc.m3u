@@ -1,17 +1,17 @@
 #EXTM3U x-tvg-url="https://epg.aptv.app/pp.xml.gz,https://epg.aptv.app/xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
 
 #EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" group-title="央视IPV4",CCTV5
-#EXTVLCOPT:http-user-agent=AptvPlayer-UA
+#EXTVLCOPT:http-user-agent=iPhone
 http://101.35.240.114:88/live.php?id=CCTV5
 #EXTINF:-1 tvg-id="CCTV5PLUS" tvg-name="CCTV5+" group-title="央视IPV4",CCTV5+
-#EXTVLCOPT:http-user-agent=AptvPlayer-UA
+#EXTVLCOPT:http-user-agent=iPhone
 http://101.35.240.114:88/live.php?id=CCTV5p
 #EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" group-title="央视IPV4",CCTV16
-#EXTVLCOPT:http-user-agent=AptvPlayer-UA
+#EXTVLCOPT:http-user-agent=iPhone
 #EXTVLCOPT:http-referrer=https:/aptv.app/
 http://101.35.240.114:88/live.php?id=CCTV16
 #EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" group-title="央视IPV4",CCTV4K
-#EXTVLCOPT:http-user-agent=AptvPlayer-UA
+#EXTVLCOPT:http-user-agent=iPhone
 http://101.35.240.114:88/live.php?id=CCTV4K
 
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" group-title="央视IPV4",CCTV1
