@@ -2,7 +2,7 @@
 
 #EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" group-title="央视IPV4",CCTV5
 http://101.35.240.114:88/live.php?id=CCTV5|User-Agent=iPhone
-#EXTINF:-1 tvg-id="CCTV5PLUS" tvg-name="CCTV5+" group-title="央视IPV4",CCTV5+
+#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" group-title="央视IPV4",CCTV5
 http://101.35.240.114:88/live.php?id=CCTV5p|User-Agent=iPhone
 #EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" group-title="央视IPV4",CCTV16
 http://101.35.240.114:88/live.php?id=CCTV16|User-Agent=iPhone&Referer=https%3A%2Faptv.app%2F
