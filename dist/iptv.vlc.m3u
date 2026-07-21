@@ -1,19 +1,5 @@
 #EXTM3U x-tvg-url="https://epg.aptv.app/pp.xml.gz,https://epg.aptv.app/xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
 
-#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" group-title="央视IPV4",CCTV5
-#EXTVLCOPT:http-user-agent=iPhone
-http://101.35.240.114:88/live.php?id=CCTV5
-#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" group-title="央视IPV4",CCTV5
-#EXTVLCOPT:http-user-agent=iPhone
-http://101.35.240.114:88/live.php?id=CCTV5p
-#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" group-title="央视IPV4",CCTV16
-#EXTVLCOPT:http-user-agent=iPhone
-#EXTVLCOPT:http-referrer=https:/aptv.app/
-http://101.35.240.114:88/live.php?id=CCTV16
-#EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" group-title="央视IPV4",CCTV4K
-#EXTVLCOPT:http-user-agent=iPhone
-http://101.35.240.114:88/live.php?id=CCTV4K
-
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" group-title="央视IPV4",CCTV1
 #EXTVLCOPT:http-user-agent=AptvPlayer-UA
 http://101.35.240.114:88/live.php?id=CCTV1
@@ -26,6 +12,12 @@ http://101.35.240.114:88/live.php?id=CCTV3
 #EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" group-title="央视IPV4",CCTV4
 #EXTVLCOPT:http-user-agent=AptvPlayer-UA
 http://101.35.240.114:88/live.php?id=CCTV4
+#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" group-title="央视IPV4",CCTV5
+#EXTVLCOPT:http-user-agent=iPhone
+http://101.35.240.114:88/live.php?id=CCTV5
+#EXTINF:-1 tvg-id="CCTV5PLUS" tvg-name="CCTV5+" group-title="央视IPV4",CCTV5+
+#EXTVLCOPT:http-user-agent=iPhone
+http://101.35.240.114:88/live.php?id=CCTV5p
 #EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" group-title="央视IPV4",CCTV6
 #EXTVLCOPT:http-user-agent=AptvPlayer-UA
 http://101.35.240.114:88/live.php?id=CCTV6
@@ -56,6 +48,10 @@ http://101.35.240.114:88/live.php?id=CCTV14
 #EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" group-title="央视IPV4",CCTV15
 #EXTVLCOPT:http-user-agent=AptvPlayer-UA
 http://101.35.240.114:88/live.php?id=CCTV15
+#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" group-title="央视IPV4",CCTV16
+#EXTVLCOPT:http-user-agent=iPhone
+#EXTVLCOPT:http-referrer=https:/aptv.app/
+http://101.35.240.114:88/live.php?id=CCTV16
 #EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" group-title="央视IPV4",CCTV17
 #EXTVLCOPT:http-user-agent=AptvPlayer-UA
 http://101.35.240.114:88/live.php?id=CCTV17
@@ -196,6 +192,9 @@ http://101.35.240.114:88/live.php?id=海南卫视
 #EXTVLCOPT:http-user-agent=AptvPlayer-UA
 http://101.35.240.114:88/live.php?id=大湾区卫视
 
+#EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" group-title="央视IPV4",CCTV4K
+#EXTVLCOPT:http-user-agent=iPhone
+http://101.35.240.114:88/live.php?id=CCTV4K
 #EXTINF:-1 tvg-id="北京卫视4K" tvg-name="北京卫视" group-title="4K8K频道",北京卫视4K
 #EXTVLCOPT:http-user-agent=AptvPlayer-UA
 http://101.35.240.114:88/live.php?id=北京卫视
